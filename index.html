@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image-Gallery:</h1>
+        <div class="content">
+            <img src="./images/img-1.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-2.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-3.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-4.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-5.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-6.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-7.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-8.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-9.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+            <img src="./images/img-10.jpg" class="img" alt="Here is  an image" onclick="ImageClick(this.src)">
+        </div>
+        <div class="lightbox-container" id="largeImage">
+            <img class="lightbox-image" src="./images/img-1.jpg" alt="Image" id="changeImg">
+            <button onclick="closeImage()" class="lightbox-close">X</button><br>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
